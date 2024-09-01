@@ -56,13 +56,16 @@ function calculateValues(){
         let outputBot = outputBotLong.toFixed(1);
         document.getElementById("outputDegree").innerHTML = outputDegree;
         document.getElementById("outputFromValue").innerHTML = outputTop;
-        document.getElementById("outputToValue").innerHTML = outputBot;
-        console.log("Choice 1");
-        
-        
+        document.getElementById("outputToValue").innerHTML = outputBot;       
     }else if(choice == 2){
         let outputLongForm = (inputTemp * 9/5) +32;
         let outputDegree = outputLongForm.toFixed(1);
+        let outputTopLong = (inputFromValue * 9/5) +32;
+        let outputTop = outputTopLong.toFixed(1);
+        let outputBotLong = (inputToValue * 9/5) +32;
+        let outputBot = outputBotLong.toFixed(1);
         document.getElementById("outputDegree").innerHTML = outputDegree;
+        document.getElementById("outputFromValue").innerHTML = outputTop;
+        document.getElementById("outputToValue").innerHTML = outputBot;
     }
 }
