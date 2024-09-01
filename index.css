@@ -1,0 +1,145 @@
+/*Global*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+}
+.container{
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Header*/
+.header-main{
+    background-image: url(./img/header\ background.jpg);
+    background-size: cover;
+    background-position-y: 60%;
+    height: 350px;
+    text-align: center;
+    align-content: center;
+}
+
+/*Main boxes*/
+.options-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-list{
+    text-align: center;
+}
+.main-flex{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sun-img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100px;
+}
+.arrow-img{
+    width: 125px;
+    margin-top: -50px;
+}
+.input-box{
+    border: 2px solid black;
+    margin-top: 25px;
+    height: 80px;
+    width: 80px;
+    font-size: x-large;
+    text-align: center;
+    align-content: center;
+}
+.output-box{
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    font-size: x-large;
+    text-align: center;
+    align-content: center;
+}
+.letter-format{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+/*Range*/
+.range-flex{
+    display: flex;
+    align-items: center;   
+    align-content: center; 
+    max-width: 70%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.range-subbox-flex{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+    justify-content: space-around;
+}
+.range-subbox-flex h3, .range-subbox-flex p{
+    margin: 0;
+}
+.range-subbox-flex h3{
+    margin: 10px 0;
+}
+.range-input-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+    justify-content: space-around;
+}
+.range-input-flex input{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
+}
+.range-input-flex label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.range-letter-format{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.range-arrow-img{
+    width: 125px;
+    margin-top: -15%;
+}
+.range-output-box{
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+    font-size: x-large;
+
+}
+/*Footer*/
+.footer{
+    background-color: lightgray;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+}
+
