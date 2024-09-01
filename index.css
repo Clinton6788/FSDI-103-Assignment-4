@@ -14,6 +14,9 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+.center-objects{
+    text-align: center;
+}
 
 /*Header*/
 .header-main{
@@ -115,7 +118,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: left;
+    text-align: center;
     height: 300px;
 }
 .range-letter-format{
@@ -136,6 +139,34 @@ h2{
     text-align: center;
     align-content: center;
 
+}
+.interval-box{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: x-large;
+    text-align: center;
+}
+.results-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    justify-items: center;
+}
+.interval-results{
+    display: flex;
+    flex-direction: row;
+}
+.small-arrow{
+    height: 10px;
+    margin: 20px 10px;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }
 /*Footer*/
 .footer{

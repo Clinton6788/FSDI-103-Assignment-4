@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div> <!--Range Conversion-->
+        <div class="center-objects"> <!--Range Conversion-->
             <div>
                 <h2>Range Conversion</h2>
             </div>
@@ -66,6 +66,12 @@
                     <p class="letter-format" id="rangeOutputLetter">?</p>
                 </div>
             </div>
+            <h3>Select interval to view full range</h3>
+            <input class="interval-box" type="number" id="intervalNumber">
+            <p><em>E.g. "0.5" returns every half value; "2" returns every other value; Blank treated as "1"</em></p>
+            <button onclick="calculateIntervals()">See Full Range</button>
+            <div class="results-grid" id="startingValues"></div>
+            <div id="error"></div>
         </div>
         <script src="./index.js"></script>
     </main>
